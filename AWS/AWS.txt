@@ -1,0 +1,37 @@
+[Plan]
+1. Basic support - Free
+Recommended for new users just getting started with AWS
+24x7 self-service access to AWS resources
+For account and billing issues only
+Access to Personal Health Dashboard & Trusted Advisor
+
+2. Developer support - From $29/month
+Recommended for developers experimenting with AWS
+Email access to AWS Support during business hours
+12 (business)-hour response times
+
+3. Business support - From $100/month
+Recommended for running production workloads on AWS
+24x7 tech support via email, phone, and chat
+1-hour response times
+Full set of Trusted Advisor best-practice recommendations
+
+
+[.......]
+ㅇㅇ aws에서 ec2 서버 사용해서 
+1. Tutorial: Setting Up Node.js on an Amazon EC2 Instance - AWS SDK for JavaScript - 
+https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
+2. How to Deploy a Node.js application in AWS EC2 - 
+https://plainenglish.io/blog/deploying-a-nodejs-application-in-aws-ec2
+
+
+[Study]
+1. AWS Certified Cloud Practitioner 2023 | Full Training Course | CLF-C01 | Pass the AWS CCP Exam
+https://www.youtube.com/watch?v=Uq5w1lnKzlk
+  1) Cloud Foundations
+  2) Domain 1 - Cloud Concepts
+  3) Domain 2 - Security and Compliance
+  4) Domain 3 - Technology
+  5) Domain 4 - Billing and Pricing
+
+

@@ -1,0 +1,14 @@
+URL: https://nodejs.org/en
+Path: C:\Program Files\nodejs\
+
+Tools: visual studio code
+https://code.visualstudio.com/download
+
+Tutorial
+https://www.youtube.com/watch?v=TlB_eWDSMt4
+
+
+
+
+ 
+

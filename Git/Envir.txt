@@ -1,0 +1,32 @@
+Download: https://git-scm.com/
+
+1. Install 
+  - download & install the package.
+  - execute "Git Bash"
+	# check version
+	$ git --version
+	# register user
+	$ git config --global user.name "user_name"
+	$ git config --global user.email "fortunejth@gmail.com"
+	$ git config --list  >>> q
+
+
+[Structure]
+  Local Working Directory >> add >> Stage Area >> commit >> Local Repository >> fatch / >> Remote Repository
+  Remote Repository >> pull >> Local Working Directory.
+
+[Commands]
+1. git init ##Working Directory 지정
+2. .gitignore  ## 무시하고 publish하지 않아야 하는 것들
+  >> https://github.com/github/gitignore
+3. git status ## Stage 에 어떤 것이 존재하는지 
+4-1. 파일 추가 - Staging 으로 저장
+  $ git add .
+  $ git add "<file name>"
+4-2.추가한 파일 삭제
+  $ git rm
+  $ git reset
+5. commit  ## 변동기록 version 등록 - 메시지를 반드시 남겨야 함
+  $ git commit -m "<message>"
+6. branch - default는 Main으로 정해져 있음
+  $ git branch -m main
