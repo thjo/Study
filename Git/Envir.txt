@@ -38,3 +38,26 @@ Download: https://git-scm.com/
   $ git push -u origin main 
 
 
+[협업]
+- 업로드 된 코드 다운로드 
+git clone 으로 받을 시 git 관련 파일(.git) 까지 받아서 history 내용까지 반영할 수 있음
+git 웹 사이트에서 Download Zip 으로 다운받을 시 .git을 받지 못함 
+1. 다운로드 clone - git clone  // 원격 소스를 로컬로 
+  $ git clone https://github.com/[계정명]/[프로젝트명].git
+  >> 해당 명령 실행 시 "프로젝트 명" 으로 폴더를 자동으로 만들어진 후 소스가 다운로드 됨
+2. 브랜치 생성 
+  $ git checkout -b <브랜치명>  //-b: 입력된 브랜치명으로 생성 후 해당 브랜치로 이동 
+  $ git checkout  <브랜치명>
+
+  ex. $ git checkout -b feature1          -- 입력된 브랜치명으로 생성 후 해당 브랜치로 이동 
+        $ git commit -m <comments>  -- feature1 내용 commit
+        $ git checkout  main     	   -- main으로 이동
+        $ git merge feature1     	   -- main에 feature1을 merge 병합함.
+
+
+
+
+
+
+
+
